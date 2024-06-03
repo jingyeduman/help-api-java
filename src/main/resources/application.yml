@@ -1,0 +1,16 @@
+server:
+  port: 3000
+spring:
+  datasource:
+    url: jdbc:mysql://rm-2ze492h01b2j0i718mo.mysql.rds.aliyuncs.com/help_test?characterEncoding=UTF8
+    username: earth_test_db
+    password: F3*b2j3bxUYj1
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
